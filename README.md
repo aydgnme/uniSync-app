@@ -112,3 +112,28 @@ git branch -D backend-split
 	•	API: Fastify + TypeScript
 	•	Data: PostgreSQL / Supabase
 	•	Tooling: ESLint, TSConfig, Babel; Git subtrees for monorepo management
+
+---
+
+## Troubleshooting
+	•	Device can’t reach API → use machine IP instead of localhost in .env.
+	•	Android emulator → use http://10.0.2.2:<PORT> instead of localhost.
+	•	CORS errors → ensure backend allows Expo dev host/ports.
+
+---
+
+## Contributing
+	1.	Create a feature branch in this monorepo.
+	2.	Modify frontend/ or backend/.
+	3.	Commit & push to uniSync-app.
+	4.	If needed, split & push to upstream repos via subtree commands.
+
+---
+
+## License
+
+Each subtree retains its own license. See frontend/ and backend/ for details.
+
+---
+
+Do you want me to also create a **shorter lightweight `README.md`** version (just setup + run) for contributors who don’t care about subtree internals?
