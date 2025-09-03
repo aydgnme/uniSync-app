@@ -16,8 +16,9 @@ uniSync-app/
 ├─ frontend/   # Expo (React Native) app (subtree of aydgnme/uniSync)
 ├─ backend/    # Fastify + TypeScript API (subtree of aydgnme/uniSync-backend)
 └─ README.md
----
 ```
+
+---
 
 ## Prerequisites
 
