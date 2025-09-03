@@ -11,12 +11,13 @@ This repository is a thin orchestration layer: the `frontend/` and `backend/` fo
 ---
 
 ## Repository Layout
-
+```
 uniSync-app/
 ├─ frontend/   # Expo (React Native) app (subtree of aydgnme/uniSync)
 ├─ backend/    # Fastify + TypeScript API (subtree of aydgnme/uniSync-backend)
 └─ README.md
 ---
+```
 
 ## Prerequisites
 
